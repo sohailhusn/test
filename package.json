@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "baseai": "baseai",
+    "dev": "vite",
+    "build": "vite build",
+    "start": "npx baseai@latest dev & npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@baseai/core": "^0.9.33"
+  },
+  "devDependencies": {
+    "baseai": "^0.9.33",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^5.0.0",
+    "@types/node": "^20.10.0"
+  },
+  "description": ""
+}
