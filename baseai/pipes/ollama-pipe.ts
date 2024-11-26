@@ -10,7 +10,14 @@ const pipeOllamaPipe = () => ({
     max_tokens: 2000,
     temperature: 0.7,
     stream: true,
-    messages: [{ role: "system", content: "You are a helpful AI assistant." }],
+    messages: [
+      {
+        role: "system",
+        content:
+          "You are a helpful AI assistant. Use the provided context to answer questions accurately.",
+      },
+    ],
+    memory: "chat-with-docs",
   },
   request: {
     config: {

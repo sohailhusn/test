@@ -1,0 +1,1213 @@
+﻿Instantly.ai Masterclass - Land in the Inbox Every Single Time With Our Ultimate Cold Email Framework
+
+
+Setting up and running a cold email outreach system can be a time consuming process - you need to create email accounts, connect them to a sending tool, write the email copy, find leads to send emails to and constantly monitor and reiterate all steps of this process.
+
+It would be an absolute shame if all of this time and effort (and money) you put into your email outreach would go to waste just because you landed in spam, where the email is never even seen, let alone opened or read.
+
+The purpose of the following guide is to help you avoid landing in spam and teach you all the steps you need to take in order for your emails to get opened, read and replied to.
+
+
+Ontop of teaching all the steps, this guide will also cover the why of things. We believe it’s important to understand why something works the way it does, so that you can prioritize and understand the importance of each aspect.
+
+
+This guide takes you through the creation of your sending domains, the entire technical setup, starting, scaling and optimizing your campaigns as well as troubleshooting any issues you may encounter on the way.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Instantly.ai Masterclass - How to Always Land in the Inbox and 2x Your Positive Replies
+Technical Setup 🛠
+Buying domains and creating email accounts.
+SPF, DKIM & DMARC
+What is SPF?
+What is DKIM?
+What is DMARC?
+How to set up SPF, DKIM and DMARC?
+Custom Tracking Domain
+Domain Forwarding
+Making sure that the technical setup has been done correctly
+Running email campaigns 👨‍💻
+Email Account Warmup
+How does warmup work and why is it important?
+How to properly warm up your sending accounts?
+Finding and Verifying Leads to Contact
+Writing Copies That Keep You Out of Spam and Get You Clients
+Using Spintax
+Launching and Scaling Cold Email Campaigns
+Troubleshooting, Testing & Optimizing 👷‍♂️
+Troubleshooting
+Common Deliverability Problems
+Other Deliverability Problems
+Testing deliverability issues
+Bounces
+Troubleshooting Sequences
+Further Testing & Optimizing 📊
+Disabling open tracking & focusing on reply rates
+Lowering your outgoing volume
+Disabling Bad Performers
+Checking Your Campaigns Daily
+Testing Different Copies
+Testing Different Leads
+Bonus: Become A Cold Email Expert
+1. Instantly Cold Email Setup - Step-By-Step Guide
+2. Instantly Youtube Channel
+3. Instantly Blog
+4. Cold Email Powerhouse (Gumroad Course)
+5. Cold Email Masterclass (Facebook Group)
+Technical Setup 🛠
+
+
+Tech setup - the most boring but absolutely critical part of doing cold email outreach.
+
+You can do every aspect of cold emailing perfectly, but if you do not have your domains and emails set up perfectly you will face major deliverability issues that can ruin your whole outreach.
+
+On top of covering how to set up your domains and email accounts for sending, we will also tell you why these things matter, so you can understand their importance.
+
+We will go through:
+
+1. Buying domains and creating email accounts.
+2. Setting up SPF, DKIM & DMARC.
+3. Setting up your own Custom Tracking Domain.
+4. Setting up forwarding to your main domain.
+
+
+The good thing about technical setup is that it’s the easiest part of the cold email process to outsource because it is the exact same process every time. Once you understand it yourself, you can delegate it to VA’s who can just follow guides and set this up for you while you work on other tasks like copywriting, lead sourcing and campaign optimization.
+
+Let’s get into it.
+________________
+Buying domains and creating email accounts.
+
+
+Before getting into the actual technical specifics, we strongly advise you to go with the biggest and most popular domain and email service providers.
+
+
+Time and time again we see people trying to save money by opting for alternative services only to face problems and lackluster support, making the already daunting process of technical setup much more difficult and sometimes even impossible.
+
+
+We strongly recommend getting your domains from Godaddy and your email accounts from Google or Microsoft. We consistently see cold emailers face the least amount of problems using these providers.
+
+
+Now let’s go over how many domains you should buy and how many email accounts you should create.
+
+
+The first thing you should ask yourself is how many cold emails per day you would like to send. This usually comes down to how many leads you think you can find and how much resources you have at hand to deal with replies, meetings and potential customers.
+
+
+A person with a lead list of 100,000 people will need to send more emails per day to cover the list in a reasonable amount of time compared to someone who only wants to reach out to 1000 people.
+
+
+Here’s a general guideline:
+
+
+1. The recommended amount of emails you can send per day per email account is about 50.
+2. If you want to send 1000 emails per day, you will need 1000/50=20 email accounts.
+3. It is recommended to create 3-5 email accounts per domain, which means for 20 email accounts you need about 4-7 domains.
+
+
+This means that the generic formula to calculate how many email accounts and domains you need is: 
+
+
+Total required emails per day / 50 = Number of needed email accounts  
+Number of needed email accounts / 5 = Number of needed domains
+
+
+Keep in mind that these numbers are not set in stone, that’s why we are giving you a range of 3-5 email accounts per domain. Lower end numbers are always safer.
+
+
+Here’s 3 examples of how you can approach this:
+
+
+  
+
+
+
+However, it is always recommended to buy extra domains and create extra accounts just in case. If you want to increase your sending volume, you can do it right away. If something happens to your existing domains/accounts, you can swap them out right away.
+________________
+SPF, DKIM & DMARC
+
+
+If you have any previous experience with cold emailing then you have probably heard these terms a million times, but barely anyone knows what they mean and what they actually do. They are all entries in your domain’s DNS settings, which can be accessed in your domain provider’s settings.
+
+The most popular domain providers are:
+
+GoDaddy
+Squarespace
+Bluehost
+
+
+Understanding the importance of SPF, DKIM and DMARC requires you to also understand what they are.
+What is SPF?
+
+
+SPF stands for “Sender Policy Framework” and it is used to specify which servers are allowed to send emails on your domain’s behalf. It is simply an entry in your domain provider’s DNS records.
+
+
+If you are using Google Workspace as your email provider, having Google’s SPF records set up for your domain will signal that Google’s servers are authorized to send emails on your domain’s behalf. This assures other email servers that emails from your domain coming through Google’s servers are legitimate and should be put into the main inbox for the recipient to see.
+What is DKIM?
+
+
+DKIM stands for “Domain Keys Identified Mail” and it is used to ensure that an email was sent and authorized by your domain by adding a signature to all of your emails. Again, DKIM is simply an entry in your domain provider’s DNS records.
+
+
+Once your recipient’s email servers verify that your email is signed with a valid DKIM signature, it is then more likely to be put into the inbox as it is seen as low risk.
+What is DMARC?
+
+
+DMARC stands for “Domain-based Message Authentication, Reporting & Conformance”. A DMARC record allows a sender to indicate that their messages are protected by SPF and DKIM and remove the guesswork from your recipient’s email servers, making them more likely to be put into the inbox.
+
+
+Put simply, you need all four of the above records for your email account to function well. As a matter of fact, email providers like Google may scrutinize your account if you don't have those set up.
+
+
+  
+
+How to set up SPF, DKIM and DMARC?
+
+
+Here are the guides including videos on how to set up SPF, DKIM and DMARC for the most widely used domain and email service providers:
+
+
+GoDaddy:
+
+
+1.  RECOMMENDED: Setting up SPF, DMARC and DKIM for GoDaddy & Google Workspace
+2. Setting up SPF, DKIM and DMARC for Godaddy & Microsoft/Office 365
+
+
+Squarespece:
+
+1. Setting up SPF, DKIM and DMARC for Squarespace & Google Workspace
+
+
+
+Custom Tracking Domain
+
+
+Now you need to set up your own custom tracking domain, which is your personal domain (or sub-domain) used to track opens and clicks in your emails. This is super important in order to protect your email deliverability.
+
+
+If you do not set up your own custom tracking domain, a public tracking domain will be used which is much like sharing a toothbrush with everyone else sending out emails. This is obviously not good for the health of your domains and deliverability.
+
+
+Just like SPF, DKIM and DMARC, your custom tracking domain can be set up with a simple DNS record entry in your domain provider’s settings.
+
+
+Here’s how to set it up:
+
+1. Go into your domain settings at your domain provider.
+2. Add a new CNAME type record.
+3. Set the value as prox.itrackly.com
+4. Set the name as inst
+5. Insert your custom tracking domain in Instantly, it will be formatted as inst.yourdomain.com
+
+
+Here are guides on how to do it with the most popular domain providers:
+
+1. Setting up custom tracking domain with GoDaddy
+2. Setting up custom tracking domain with NameCheap
+
+
+For other sending accounts with the same domain, you can go ahead and update Custom Tracking Domain settings by entering the same tracking domain that you've just created. 
+
+
+For instance, use inst.domain1.com for all sending accounts with domain1.com.
+
+
+If you have sending accounts using other domains, you will need to repeat the process above to set up custom tracking domains separately for separate domains, so that domain2.com sending accounts will use inst.domain2.com as their custom tracking domain.
+________________
+Domain Forwarding
+
+
+Lastly, you want to make sure that all of your sending domains are forwarded to your main domain. This is the easiest part of the technical setup process, you are almost done!
+
+
+The main reason for setting up forwarding is that when people manually check where your email came from, they will be forwarded to your main business domain where they can find out more about you and see that you are legitimate. The other reason is that a permanent (301) forwarding links your secondary domains to your main domain.
+
+
+Forwarding, just like previous steps, is also set up in your domain provider’s settings. Here’s how you do it with GoDaddy.
+
+
+________________
+Making sure that the technical setup has been done correctly
+
+
+After connecting your sending accounts to Instantly, you can check if SPF, DKIM and DMARC are set up correctly by clicking on the “Test Domain Setup” button.
+
+
+  
+
+
+
+If everything is done correctly, you will see a confirmation message pop up.
+
+
+You can make sure that your custom tracking domain works by clicking “Check status” in each of your sending account’s settings. If everything is correct, you will see green check marks next to CNAME verified and SSL verified.
+  
+
+
+
+To check if your forwarding works, simply visit the webpage of your secondary domain and see if it automatically forwards you to your main business website.
+________________
+Running email campaigns 👨‍💻
+
+
+After making sure your technical setup is all done properly, you can move on to the fun part - creating and optimizing your cold email campaigns for maximum deliverability and performance.
+
+
+In this section we will cover:
+
+
+1. Email account warmup
+2. Finding and verifying leads to contact
+3. Writing copies that keep you out of spam and get you clients
+4. Launching and scaling campaigns
+
+
+Let’s get right to it.
+________________
+Email Account Warmup
+
+
+Properly warming up your email sending accounts (and domains) can make the difference between a highly successful cold email campaign and a campaign plagued by low open rates & no replies. Additionally, warmup plays an important role in maintaining your sending reputation and continuously making sure that you are landing in the inbox.
+How does warmup work and why is it important?
+
+
+Warmup works by mimicking human conversations between email accounts.
+
+
+Think of it as you emailing back and forth with your friends - on autopilot, but in this case, your ‘friends’ are other Instantly.ai users that have also enabled the warmup feature. You can be sure that all of them will open your email and a high percentage will write you back with a ‘thoughtful’ and positive sentiment.
+
+
+The emails written by the Instantly AI algorithm signal to Google, Outlook, and others email providers that your email account and sending domain is relevant and legitimate. This increases the likelihood that the messages that are sent to the cold leads in your outreach campaigns will also land in their inbox and subsequently be opened and replied to.
+
+
+On top of the deliverability benefits, your outreach email accounts will also stay alive for longer and the likelihood of you ‘burning’ through an account is significantly lower.
+
+
+Here’s what a typical warmup email looks like:
+
+
+  
+
+
+
+Notice that all warmup emails have a tag (which stands for Instanly Warmup email) at the end of their subject lines and in the email body, notifying you that these are AI generated emails that require no attention from you.
+
+
+The recommended default settings for warmup are as follows:
+
+Increase per day - 1
+Daily warmup limit - 20
+Reply rate % - 30%
+
+
+  
+
+
+
+The increase per day setting works by slowly increasing your warmup daily limit by 1 email every day until it reaches your daily warmup limit. Disabling slow warmup is only recommended to accounts that have already been warmed up and are older than 14 days.
+
+
+Daily warmup limit is simply the number of warmup emails that your email account will send in a day.
+
+
+The reply rate setting is used to set the percentage of replies that your outgoing warmup emails get. Some people may ask why this should not be 100% as more replies should be a good thing, right? Well no, getting replies to all of your emails is suspicious and something that does not happen to real people sending emails.
+
+
+Advanced Warmup Settings
+
+
+
+
+
+
+In the advanced warmup settings you have 3 options:
+  
+
+1. Weekdays only
+2. Read Emulation
+3. Warm custom tracking domain
+ 
+The recommended settings are to keep both read emulation and warm custom tracking domain enabled.
+
+
+When you turn 'Weekend only' mode on for warmup, your accounts will not send on weekends.
+
+
+However, they will continue to receive warmup emails during weekends - this is what the typical, real-world behavior is - even if you don't send emails out on weekends, you'd still receive some.
+
+
+Read emulation mimics human human-like behavior by actually taking time to scroll through the warm-up emails, making it look realistic to email service providers.
+
+
+Warm custom tracking domain works by including your custom tracking domain in your warmup emails, showing email service providers that attachments from that specific domain are safe, because they are regularly being opened and replied to.
+
+
+Both great settings you want to enable.
+How to properly warm up your sending accounts?
+
+
+For fresh domains and sending accounts, it is recommended that you just enable warmup by clicking on the flame icon next to your sending accounts in your Instantly account and let our system run with default settings as shown above.
+
+
+  
+
+
+
+Warm up your fresh sending accounts for at least 3-4 weeks before sending out any cold emails.
+
+
+Once your sending accounts are warm and you are ready to send out cold emails, make sure you still keep warm up enabled at all times. Think of warmup and cold email sending as counteracting forces, warmup is constantly working to build & protect your sending reputation while cold email sending is hurting it with potential bounces, reports as spam from recipients and anti-spam bots.
+
+
+A good rule of thumb is to keep a 50:50 balance between your cold emails and your warmup emails. For example, if you are sending out 20 cold emails per email account per day then match it with 20 warmup emails per email account per day.
+
+
+If you want to bump up the volume of your outreach, you can move on to a split of 25 cold emails per day per account and 25 warmup emails per day per account. These settings can be edited in the settings of each sending account within Instantly.
+
+
+If you wish to scale warmup emails up by 5 as in the above example, you can disable the slow warmup setting, since your email accounts are already warm and this way they will send out the desired amount right away.
+
+
+  
+
+
+
+NB. Keep warmup enabled at all times!
+
+
+The warmup system is continuously working to better your domain and email account reputations, acting as a counter-force to the “damage” that sending cold emails can do to domains. For this reason you should always keep warmup enabled and never turn it off as long as you are using the domains and email accounts for cold email outreach.
+________________
+Finding and Verifying Leads to Contact
+
+
+One of the most important parts of a successful cold email campaign is finding the right contacts to target with your campaigns to maximize conversions and to verify them properly to minimize bounces, which is one of the main ways people destroy their sending reputation and get stuck in spam.
+
+
+A bounce is when your email is unable to be sent to your recipient. Most bounces happen when the email address you are sending to no longer exists. Thankfully bounces can be fully eliminated by verifying your contacts before sending.
+
+
+This part of the cold emailing process is so important that we cover everything about lead mining and verifying in depth in a separate document, which you can read here:
+
+Instantly Cold Email Lead Mining Masterclass by Instantly.ai
+
+
+The 2 most important things regarding leads are
+
+1) Make sure the leads you are using are relevant to your offer to maximize replies.
+2) Make sure the leads you are using are fully verified to minimize bounces.
+
+
+________________
+Writing Copies That Keep You Out of Spam and Get You Clients
+
+
+Another critical part of a successful cold emailing campaign is copywriting. You can have everything done perfectly, but without a good email copy you will fail to get replies, meetings and revenue for your business.
+
+
+Thankfully just like for lead finding & verifying, we have a separate long-format document going over every part of copywriting that will help you convert leads into paying customers. You can read it here:
+
+Instantly - How We Get 400+ Replies Monthly With Our Cold Email Copywriting Framework 
+
+
+Also, check out our Youtube playlist that cover all parts of email copywriting here:
+
+
+https://www.youtube.com/playlist?list=PLyn3P_Bl8i2EsGDidzb6c1jXjbfczS2wk
+
+
+Using Spintax
+
+
+Also an important part of email copywriting is using spintax. If you like listening more than reading, check out this video on this topic:
+
+
+How to Use Spintax in Instantly
+
+
+Spintax is used to randomize the content of your copy by offering alternative words, sentences or even phrases for the sequence to use.
+
+
+This is what a spintax looks like and how it should be formatted:
+{{RANDOM | Text1 | Text2 | Text3}}
+
+
+So it is basically just text separated by the vertical bar symbol | enclosed in curly brackets.
+
+
+The example above provides 3 variations of a text, but you can use just 2 variables or more than 3, it does not change the way spintax works.
+
+
+It is also important that you include RANDOM as the first variable as shown in the example within Instantly, because that will make sure that the spintax will automatically choose one of the following variables and insert it into your copy.
+
+
+Why is Spintax necessary?
+
+
+Spintax will make sure that all of your outgoing emails are as unique as possible, which will in turn increase your deliverability because email service providers have spam bots that scan the content of emails and if they detect a copy that has been used many times they are more likely to send it to spam.
+
+
+A real life example of using copy with Spintax:
+
+
+  
+
+
+
+You can make sure your Spintax works properly by clicking the eye icon at the bottom of the sequence editor to display a preview of your email, this will randomize all the spintaxed text and should show you a natural variation of your email like this.
+
+
+Now you may think that adding a bunch of different variations will make a couple unique variations of your copy which will not help much, but actually even adding a couple of spintaxes will make hundreds or even thousands of different variations of your email.
+
+
+An easy way to check how many variations your copy can produce is by going to this website and pasting in your copy.
+
+
+The example used above will generate 486 unique variations of your email. (Keep in mind that you want to remove the RANDOM when checking the variation count as this tool will also count the word RANDOM as a legitimate variable and inflate the number of results).
+
+
+  
+
+
+
+As you can see, Spintax can also be used in the subject line. If you have additional follow ups, Instantly’s system will make sure that all additional steps will use the random subject line generated for the initial step, so that threading works naturally and recipients can see the full context of your previous emails.
+
+
+  
+
+Launching and Scaling Cold Email Campaigns
+
+
+The way you start your cold outreach can be detrimental to your results, so it’s important to understand the basics from the get go, so that once you scale to bigger volumes you are doing everything right. Here we have the most critical basics split into separate lessons.
+
+
+First lesson: do not send more than ~50 emails per day per email account, this includes warm-up emails.
+
+
+The number 50 is not a rule set in stone, but rather a best practice that we’ve seen constantly bring great results. People that are pushing this limit will most likely find themselves troubleshooting deliverability issues and spending time that could be put to better use. We’ve gotten the best results with a split of 20±5 cold emails and 20±5 warm up emails per day per account. 
+
+
+The risk-reward ratio of pushing the per-account level sending limit further is just not worth it, as you risk losing your entire domain and accounts for a little bit of extra volume. This brings us to the next lesson.
+
+
+Second lesson: always scale total outreach volume by buying more domains and creating more email accounts rather than pushing the daily sending limits of existing accounts further (and risking burning them).
+
+
+Some people make it work with higher sending volumes per account, but from our experience it is not worth the risk of burning your existing domains that have a solid sending reputation already. Building a solid reputation takes a lot of time and effort, meaning that you should take good care of your domains that get to the point of good deliverability.
+
+
+Now all of this does not mean that you should go straight into sending 50 emails per day from the first day.
+
+
+Third lesson: start low and scale your cold outreach volumes up slowly while monitoring stats closely.
+
+
+Starting your outreach right from the maximum recommended sending limit of 50 emails per account per day will damage the reputation of your accounts and domains right away, since spam filters and bots treat fresh domains and email accounts more harshly.
+
+
+For this reason it is recommended to start low, on the first day send out no more than 5 cold emails per day per email account while keeping the warmup system at 20 emails per day.
+
+
+While keeping a close eye on metrics like open rate, reply rate and warmup health score slowly scale up the cold email sending volume until you reach the maximum recommended limit of 50 emails per day per account.
+
+
+There is no fixed rule on how this should be done exactly, but you can follow this guideline we successfully used while running our cold email lead generation agency:
+
+
+Scaling campaigns from scratch
+
+
+In a simplified manner, you can approach it like the following example.
+
+
+Starting sending cold emails safely with an email account that has been warmed up for at least 14 days:
+
+
+Day 1 - 5 emails per day
+Day 5 - 10 emails per day
+Day 10 - 15 emails per day
+Day 15 - 20 emails per day
+Day 20 - 25 cold emails per day AND increase daily warmup limit to 25 warm up emails per day.
+
+
+At this point you are at the maximum recommended sending limit of a single email account, which is a total of 50 emails per day.
+
+
+You can increase these limits gradually each day if you want to be extra cautious, but increasing them every 5 days like shown in the above example works well too.
+
+
+It’s also important to understand that none of the numbers mentioned in this section are the only correct way of doing things. These numbers allow leeway in both directions and can still work perfectly well. You can think of it as a recommended speed limit in a corner of a racing track, even if you go a little faster or slower, you will still make it through. Most of the problems arise when the recommended limits are exceeded/ignored substantially.
+
+
+Fourth lesson: do not scale up your sending volume per account unless your open rate is above ~40% and warmup health score is above ~98%.
+
+
+  
+
+
+
+You want to make sure that your deliverability is top notch before you scale your outreach volumes. Sending emails that get stuck in spam and that no one opens or replies to will only hurt you more. Notice that I again used the approximation sign “~”, the reason is that none of these numbers are set in stone, it’s the idea that matters.
+
+
+The reasoning behind these numbers is that it’s very unlikely that being in spam is an issue for your campaigns if you are seeing a healthy open rate, meaning that you can safely scale your volumes up.
+
+
+Fifth lesson: if your open rates and/or warmup health score are low, stop all cold outreach and let only warmup run for a few days before trying again.
+
+
+The whole reason for the warmup system is to build your sending reputation with positive interactions, so if you find yourself having a low open rate and/or low warmup health score, stop all cold outreach and just let warmup run on its own. Then try again with a low volume to see if there was any improvement. You might have to let warm up run for 1-2 weeks to improve a damaged reputation. 
+
+
+This same strategy can be used at any point later on. If you ever suspect being stuck in spam then stop all cold outreach and let the warmup system run on its own before trying again with lower volumes.
+
+
+Once you reach a point where all of your sending accounts are sending out around ~50 emails per day with good results and you wish to scale further go ahead and buy more domains and create more email accounts.
+
+
+Then do everything you did with the previous domains/accounts again and start the whole process from scratch until these new accounts are also sending out ~50 emails per day.
+
+
+Keep in mind that these new accounts need to be scaled up slowly, which means that it’s a good idea to create separate new campaigns for new accounts to keep the volumes and analytics separate for future decisions. You also want to keep an eye on how the new accounts are doing separately.
+
+
+We recommend starting the scaling by duplicating the best performing campaigns and making sure those are the ones that see increased volumes first, after which you can move forward with testing new campaigns using the new accounts.
+
+
+To summarize the main things to keep in mind are:
+
+1. Do not send more than 50 emails per day per email account. This includes warmup emails.
+2. Start low and slow.
+2. Do not scale sending volume if metrics are not healthy.
+3. If metrics are not healthy, then stop cold outreach completely and only let warmup run. Then try again starting low and slow.
+4. Only scale sending volumes by buying more domains + creating more email accounts, not by constantly increasing daily sending limits per account.
+________________
+Troubleshooting, Testing & Optimizing 👷‍♂️
+
+
+Now that you know how to properly set up your domains and sending accounts, write copies, source leads and launch your email campaigns it is time to learn all about testing, optimizing and troubleshooting.
+
+
+Knowing how to continuously improve and troubleshoot your existing cold email campaigns is what separates a cold email master from a trainee.
+Troubleshooting
+
+
+If for any reason your campaigns are not getting good results and/or open rates are looking bad, there are quite a few steps you can take depending on the problem you are facing.
+Common Deliverability Problems
+
+
+The most common deliverability problem usually stems from sending out way too many emails too fast per account. Email service providers seeing a single domain doing unusually large volumes and too many people reporting you as spam are surefire ways to ruin your domains and sending accounts. 
+
+
+This is why it’s important to follow the guidelines laid out in the Launching and Scaling Cold Email Campaigns section
+
+
+Here we cover other common deliverability problems and how to fix them:
+
+
+Open rates are slightly low (30-50%): 
+
+
+This usually refers to a problem with your target audience and/or subject line and isn’t definite proof of inboxing issues. It could also indicate a problem with the beginning of your email body copy, as your prospects see it as a snippet under your subject line.
+
+
+Some kinds of demographics are tougher to reach than others (for example CEO’s of big financial companies in the USA) and we always recommend testing other C-suite positions and even assistants to see if that makes a difference.
+
+
+On top of that we recommend changing up and testing different subject lines.
+
+
+Some of the best performing subject lines are:
+
+{{firstName}} - quick question
+
+
+{{firstname}} - (your name)
+
+
+Thought you’d like this {{first name}}
+
+
+Quick question
+
+
+Interview request
+
+
+Question about {{companyName}}
+
+
+Weird question {{firstName}}?
+
+
+Thoughts?
+
+
+Thoughts {{firstName}}?
+
+
+Can you help {{firstName}}?
+
+
+Love {{companyName}}!
+
+
+If playing around with targeting and/or subject lines does not help, suspect it to be a deliverability issue.
+
+
+Open rates are very low (<30%): 
+
+
+This usually means there is a problem with deliverability, meaning your domains/accounts are either blacklisted or stuck in people’s promotions folder where they never get seen or opened.
+
+
+The best fix for this is to completely pause the cold outreach of your campaigns and only let Instantly warmup run for a week.
+
+
+On top of this, you should create new sending accounts and start warming them up in case your previous domains permanently end up on blocklists. We’ve seen that it’s more time and cost efficient to create new sending accounts from scratch as opposed to dealing with getting out of blocklists.
+
+
+After a week’s pause you can restart the campaigns slowly like they were brand new and later add in the new accounts you’ve created. We’ve seen this approach fix the problematic situation in most cases.
+
+
+Also, make sure you are not sending more than 50 emails per day per email account.
+If this too does not help, you can give the warmup system even longer to run on its own and if the metrics are still bad you should consider those domains and accounts burnt out and replace them completely.
+
+
+Open rates are good, but reply rate is bad:
+
+
+This usually indicates a problem with your copy, offer and/or targeting and is a sign that it is just not resonating with the people you’re sending your emails to.
+
+
+Refer back to the Copywriting and Lead Mining sections and test out different copies, different lead sources and different job titles, countries, company sizes, etc.
+
+
+Also, it might be the case that your prospects are checking out your website/company and not finding it trustworthy enough to reply. Consider working on your online presence.
+
+
+We’ve seen people with websites only in their local language trying to reach out to English speaking clients, which usually never works (most people check out the website before replying).
+
+
+Open rates are good, reply rates are good, but no positive replies:
+
+
+This is similar to the previous problem and most likely indicates an issue with the offer not being attractive enough for people to give it a chance.
+
+
+In addition to the recommendations in the previous step, one thing we recommend trying is moving towards a more soft call to action at the end of the email. 
+
+
+Instead of pushing or asking for a call right in the first email, try to instead ask for permission to send more information over or ask for interest in hearing more.
+
+
+Again, refer back to the Copywriting and Lead Mining guides and test out different copies, different lead sources and different job titles, countries, company sizes, etc.
+
+
+Other Deliverability Problems
+
+
+❌ Email accounts not set up properly
+
+
+Not having SPF, DKIM, DMARC set up properly for your accounts.
+
+
+❌ Bad subject lines
+
+
+If your subject line is generic, salesy and not targeted, there’s less chance people will open it. Check out our copywriting guide HERE.
+
+
+❌ Email account not warmed up enough or not using warm-up.
+
+
+If you haven’t warmed up your emails for at least 2 weeks before sending cold emails you might see lower open rates. Your own domain’s reputation and how old it is, along with the reputation of your sending accounts affect your deliverability.
+
+
+❌ Email account sending too many emails
+
+
+If you’re sending too many emails you might get flagged and most of your emails will end up in spam and won’t be opened. Do not send over 50 emails per day per account.
+
+
+❌ Using Spam words
+
+
+Don’t use words from this list.
+
+
+❌ Non personalized Email
+
+
+If it’s obvious from the email snippet that the email is generic and not targeted, there's a lower chance of being opened.
+
+
+❌ Unverified Lead List
+
+
+If you don’t verify your email lists there are going to be a lot of email accounts that don’t exist and bounce, which means your open rate is lower. Bounces are overall very bad for your sending reputation, avoid them at all costs. Check out our lead mining and verifying guide HERE.
+
+
+❌ Using Images in your Copy
+
+
+Using images might cause your emails to go into spam and lower deliverability.
+
+
+❌ Using Links in your copy
+
+
+Using links might cause more of your emails to go into spam and lower deliverability.
+
+
+❌ Not using a custom tracking domain
+
+
+Not using a custom tracking domain means you’re using the same tracking domain as other people and that won’t get you as good of a deliverability as using your own custom tracking domain.
+
+
+❌ Blacklists
+
+
+If the domain associated with your email addresses, custom tracking domain, or any links associated included in your email body are on a blacklist, that will negatively impact deliverability.
+
+
+Usually being on 1-2 blacklists is not a major concern and you should still be able to get high inbox rates. However, if your domain is listed on a bunch of different blacklists you are usually better off by considering that domain burnt and replacing it completely with a new sending domain and accounts.
+
+
+You can check blacklist status on third-party services like https://mxtoolbox.com/blacklists.aspx 
+
+
+❌ Sending to a generic email
+
+
+You are less likely to get an open or reply from a generic email like info@company vs a personal one like name@company
+
+
+❌ Sending at the wrong times
+
+
+If you send emails after work hours, over the weekend or on holidays, people will open them less.
+
+
+❌ Reputation of email service provider's IP
+
+
+While most major providers (like Google, Zoho, Outlook, etc.) automatically take care of the sending server’s IP reputation, this could yet be another reason for low deliverability. Please make sure your email service provider’s IP address is not in a blacklist.
+
+
+❌ Pixel Disabled by certain email clients
+
+
+Certain email clients, like the iPhone's stock Mail app, for example, have privacy settings that remove the loading of images by default (to prevent tracking). In case that happens, a tracking event will not get fired. This is an industry-wide problem regardless of which email open tracking tool you use.
+
+
+❌ Your email’s domain not pointing to an actual website
+
+
+To fix this, we recommend you to point to your main business website by adding a cname record (make sure to use SSL in this case) or by redirecting this domain to your main website. 
+
+
+Here is a deliverability audit sheet you can copy for yourself and use it to go over each section of your cold emailing system:
+
+Instantly Deliverability Audit (COPY & FILL THIS BEFORE OUR CALL)
+
+
+Testing deliverability issues
+
+
+Within Instantly:
+
+
+The easiest way to test deliverability issues is by sending a test email through Instantly, by going to your sequence editor, clicking on 'preview email', then on 'check deliverability score'.
+
+
+  
+
+  
+
+  
+
+
+
+Ideally you would want to reach a deliverability score of 100/100, when you scroll down in your deliverability report you can see the reasons your deliverability might be low and then you can prioritize dealing with them separately.
+
+
+Main reasons you are not getting a 100/100 deliverability score are a combination of all the common problems listed above, in the Common Deliverability Problems and Other Deliverability Problems sections. If you fix all of these problems, you should be getting a perfect score.
+
+
+Alternative method:
+
+Alternatively you can use a tool called GlockApps to test your deliverability. This is how you do it:
+
+
+Create an account, then click on Inbox Insight and then choose Start New Test.
+
+
+
+
+  
+
+
+
+
+
+Then select the providers you want to test, it is recommended to only select US related providers if you are only sending to US targets.
+
+
+  
+
+
+
+
+Then just copy and paste the test id string in your email body, copy the recipients into the address bar and send out your email through your email account that you want to test.
+
+
+  
+
+
+
+
+
+After sending out your test email, click on View Report and wait until the report fills up with data.
+
+
+  
+
+
+
+After the report is complete, you can see the percentage of emails that went into the inbox and what percentage failed to inbox.
+
+
+If your inbox rate is over 90% I wouldn’t worry about being listed in a singular blocklist or any minor problems that might appear from the report. The main idea is that the overwhelming majority of your emails went straight into the inbox.
+
+
+Blocklists become a problem when you are listed in a lot of them and then the recommended course of action is just to create new domains and sending accounts as getting yourself out of blocklists takes a lot of more effort than creating new domains.
+
+
+You can click on the “Action Steps” tab to see what GlockApps recommends you to do in order to improve your deliverability. Often times they are a combination of the same steps laid out above in the Common Deliverability Problems section.
+Bounces
+
+
+One of the worst things that can happen to your domains and accounts is excessive bounces, it will ruin your domain reputation and will get you stuck in spam. Bounces are basically emails that have failed to be delivered, mostly because the recipient’s email address no longer exists.
+
+
+So how do you check it and how do you avoid it?
+
+
+You can see your bounces on the campaign level by navigating to a specific campaign within Instantly and going to the Leads tab.
+
+
+  
+
+
+
+There you will see the number of bounces for that specific campaign, so what is a good bounce rate to aim for?
+
+Well, the perfect bounce rate is 0%, but that can be pretty unrealistic so you should aim to make sure that your bounce rate is not more than 2% from your total outgoing emails.
+
+
+How does a high bounce rate happen?
+
+
+Bounces happen when your lead lists are not properly cleaned & verified and your sent emails are failing to be delivered.
+
+
+How do I clean & verify my lists?
+
+
+The topic of lead mining and verifying is covered in the following guide, navigate to the “Lead Validation” section:
+
+
+Instantly Cold Email Lead Mining Masterclass by Instantly.ai
+
+
+Instantly offers you an easy-to-use option for email verification.
+  
+
+
+
+The way lead verifying tools work is by confirming that the contact email addresses exist and can receive your email before you actually send out your email. This makes sure that emails that don’t exist will be removed from your lead lists, allowing you to avoid excessive bounces.
+
+
+The main goal for you is to get your bounce rate below 2%.
+
+
+Troubleshooting Sequences
+
+
+As mentioned previously in the common deliverability problems section, links, images and attachments in your email sequences lower your deliverability substantially. The reason for this is because attachments are always seen as risky by bots that are pre-scanning emails, because oftentimes viruses and malware can be hidden in the form of attachments.
+
+
+Only use attachments in your emails if you’re confident that the added value from the attachments outweighs the damage they do to your chances of landing in people’s inboxes.
+
+
+Also, the same goes for different fonts, colors and custom formatting. It is always better to send emails in plain-text format. 
+
+
+One way to make sure that your emails are in plain text format is to clean out all HTML code.
+
+
+You can make sure there is no HTML (the stuff that makes your email too fancy for good deliverability) in your email body by highlighting your entire copy and clicking the “Clean HTML” button.
+
+
+Sometimes there is HTML code hidden in your copy that you do not know is even there. This mainly happens when you copy-paste text over from other sources, which can attach custom HTML code into your text that is not even visible in the text itself.
+
+
+Either way, making sure that your emails are in plain text format (with no HTML) is always a step to take to improve your deliverability.
+  
+
+
+
+Also, another thing that might seem obvious is to check out the scheduled time-window of your campaigns.
+
+
+  
+
+
+
+Make sure that your campaigns are going out at the most optimal time when your target audience is most likely to see and respond to your emails. This is usually during working hours.
+
+
+For this reason it is important to separate your campaigns and lead lists based on location, so that people get your emails when it’s working hours in their location.
+Sending emails during off-hours means that they will get buried by all the other emails that the person will receive by the time they get to look at them, substantially lowering your chances of the person opening and replying to your email.
+
+
+________________
+Further Testing & Optimizing 📊
+
+
+Now we will cover things that you can do to further improve your cold email performance and things you can keep in mind, even if you are not facing any blatantly obvious issues.
+
+
+The first and probably most controversial topic is open rates, which deserves a separate headline.
+Disabling open tracking & focusing on reply rates
+
+
+Even though open rates are an important metric, they can be super misleading AND hurt your deliverability on top of it. To understand this better, it’s important to understand how open tracking works.
+
+
+If you like listening more than reading, feel free to watch this video about this topic:
+Open Rates = Fake News
+
+
+Open rates are measured by a tracking pixel within your email body copy.
+
+
+A tracking pixel is just a 1 by 1 pixel tiny transparent image that is attached to your email. Any time this tiny image gets loaded, it is recorded as an open event as the image only gets loaded when the email is opened.
+
+
+Now this can be an issue in multiple ways:
+
+
+Firstly, the tracking pixel itself is an attachment, which as we know from the previous section lowers deliverability as attachments are often where viruses and malware are hidden, making it more likely to land in spam. 
+
+
+Additionally, email service providers have ways to differentiate between a regular image attachment versus a tracking pixel attachment. People who use tracking pixels are more likely to be marketers, which means that emails from there are more likely to be put in spam.
+
+
+Secondly, email providers have bots that pre-scan emails to make sure they are safe, this pre-scanning can trigger open events, making the open rate you see misleading as these opens could be bots and not actual people.
+
+
+On top of this, some email providers and companies (like Apple) have privacy features in place that can block the loading of the tracking pixel, making it impossible to track opens even when a person could have opened your email.
+
+
+How big is the difference in deliverability? Pretty huge - tracking opens can lower your inbox rates by up to 20%
+
+
+To summarize, open rates are not accurate and tracking them lowers deliverability by up to 20%.
+
+
+So what to do?
+
+
+Our recommendation is that you should keep open tracking disabled for most of your campaigns and focus purely on reply rates and positive replies.
+
+
+You can disable open tracking (and enable plain-text sending) in every individual campaign’s settings.
+
+
+  
+
+
+
+You can have a few campaigns where you keep open tracking enabled just to have a general idea of your open rates, but keep it disabled for the majority of your campaigns.
+
+
+People sometimes see their open rate drop by 10% and think that there is something wrong with their deliverability (which could be the case) and then spend a lot of time trying to fix it. When in reality the drop was caused by the email service provider’s privacy features blocking the loading of the tracking pixel and thus showing you lower open rates for that day.
+
+
+Instead of open rates you can then focus on business metrics that really matter, like reply rates, positive reply rates, meetings booked and revenue generated.
+
+
+Knowing how many people opened your email does not really directly help your business, especially if you know that the number is not even accurate.
+
+
+These are all stats that cannot be misleading and things that should be the ultimate focus when running cold email campaigns.
+
+
+Lowering your outgoing volume
+
+
+Sometimes all you have to do to get better results is to lower your outgoing volume per email account per day. Even though the recommended amount of emails to send per day per account is 50, you can try lowering it and then monitor results for the next couple of weeks.
+
+
+To make it super simple, you can actually limit your account specific sending volumes directly in the email account’s settings in Instantly.
+
+
+  
+
+
+
+This means that you do not have to go through each campaign and adjust campaign sending limits. You can just change the daily campaign limit in your email account settings and be sure that no more emails are going to be sent out.
+
+
+Disabling Bad Performers
+
+
+Sometimes your overall cold email stats are looking good, but they could be a lot better if you disabled a few bad apple campaigns that are getting worse than usual results.
+
+
+You can try troubleshooting why some of the campaigns are getting bad results, but we’ve seen that cutting the worst performers off can do a lot of good for your overall results.
+
+
+You can then allocate more sending volume to the good performing campaigns, which will in turn generate positive interactions and increase your sending reputation which further increases your results. Like a positive snowball effect.
+
+
+This brings us to the next point, daily health checkups.
+Checking Your Campaigns Daily
+
+
+As mentioned in previous sections, sending further emails with bad deliverability will hurt your sending reputation even more. Think of it again as a snowball effect, but negative.
+
+
+This is why it’s extremely important that you stop your cold outreach (or lower it significantly) as soon as you notice signs of bad deliverability like low open rates, low reply rates, high number of bounces.
+
+
+Some people launch their campaigns and completely forget about them for a few days or even weeks, which means that any issues will go unnoticed and your domains/accounts could end up ruining their sending reputation.
+
+
+The best way to approach this is to assign a 30-minute slot in your calendar every day where you take your time and go through your campaigns to identify any issues with your results, deliverability and overall account health.
+
+
+  
+
+
+
+
+
+Testing Different Copies
+
+
+Usually the first few copies you write are not going to be the best performers. On top of that, you should keep testing different copies even if your campaigns are working super well.
+
+
+This means that copywriting is a constant process of testing and reiterating.
+
+
+A quote from our copywriting framework document:
+
+
+For some offers we found a working campaign after 3 tries, for others it took 3 months and 40 campaigns.
+
+
+You need to get into the habit of testing new things daily and weekly. When people ask me how many campaigns do you usually create, my answer is: “As many as it takes”.
+
+
+How to succeed with our copywriting framework
+
+
+1. Create a 15 or 30 minute Copywriting calendar event for every morning.
+
+
+2. When you’re first starting out with a new client or for yourself, create at least 4 different campaigns in Instantly each with a different strategy from this guide.
+
+
+3. Create a new campaign daily in Instantly with a different angle or a strategy from this guide.
+
+
+4. Keep testing new angles until you find a winning combo and double down on that.
+
+
+5. Keep testing new angles and strategies next to your winners because every strategy will get saturated and stop working at some point.
+
+
+Instantly - How We Get 400+ Replies Monthly With Our Cold Email Copywriting Framework 
+
+
+Testing Different Leads
+
+
+Like with everything - the goal is to get into a habit of testing different angles and databases weekly because if you’re starting off fresh you won’t know what works.
+
+
+Depending on your offer and goals you can test different job titles, different locations, different company sizes, different niches, different stages of funding. The possibilities are basically endless.
+
+
+Sometimes it works right away, other times you need to test 10+ different databases and target groups.
+
+
+If you’re getting results with a specific lead database - double down on that and export all the leads possible. 
+
+
+If you’re not getting results with a specific lead source - try a different one.
+Read more about lead mining and verifying in our guide:
+
+
+Instantly Cold Email Lead Mining Masterclass by Instantly.ai
+
+
+________________
+
+
+Bonus: Become A Cold Email Expert 👨‍🚀
+
+Thanks for reading - hopefully you found a bunch of methods to inspire your cold email copywriting. Feel free to reach out on Twitter or via Instantly’s Live Chat if you have any suggestions.
+
+If you want to take your cold email to the next level - here is more content we’ve created on Cold Emailing.
+
+
+1. Instantly Cold Email Quickstart Guide
+2. Instantly Youtube Channel
+3. Instantly Blog
+4. Cold Email Masterclass (Facebook Group)
+
+  
+
+
+
+
+
+All Rights Reserved © 2022. Get More Positive Replies With Instantly.ai
